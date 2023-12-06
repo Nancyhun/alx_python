@@ -1,16 +1,6 @@
-def add(a, b):
-    """
-    Adds two integers and returns the result.
-    
-    param a: The first integer.
-    param b: The second integer.
-    
-    return: The sum of a and b.
-    """
-    return a + b
+def add(a, b): # function takes in two integers
+    return a + b # returns the sum of the two integers 
 
-print(add(1, 2))
-print(add(98, 0))
-print(add(100, -2))
-
-
+print(add(1,2))
+print(add(98,0))
+print(add(100,-2))
