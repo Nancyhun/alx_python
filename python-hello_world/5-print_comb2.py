@@ -1,7 +1,5 @@
-for i in range(10):
-    for j in range(10):
-        if int(str(i)+str(j)) == 99:
-            print(str(i)+str(j))
-        else:
-            print(str(i)+str(j), end=", ")    
-            
+for i in range(100):
+    if i < 99:
+        print(str(i).zfill(2), end=", ")
+    else:
+        print(str(i).zfill(2))
