@@ -1,14 +1,15 @@
 def is_prime(number):
-    factors = set()
-    for i in range(1, number+1):
-        if number % i == 0:
-            factors.add(i)
-    if len(factors) != 2: # prime numbers have only two elements in their set. So return false if it doesnt
-        return False
-    
+  """This function returns true if a number is prime and false if otherwise"""
+  n = int(number)
+  
+  if n < 2:
+    return False
+  
+  if n == 2 or n == 3:
     return True
-
-print(is_prime(17))
-print(is_prime(15))
-print(is_prime(-5))
-print(is_prime(20))
+  
+  for i in range(2, int(number**0.5) + 1):
+    if n % i == 0:
+      return False
+  else:
+    return True

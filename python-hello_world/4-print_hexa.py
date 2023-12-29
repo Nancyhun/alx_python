@@ -1,3 +1,2 @@
-for i in range(99):
-    print("{} = {}". format(i, hex(i)))
- 
+for number in range(99):
+  print("{:d} = {}".format(number, hex(number)))
