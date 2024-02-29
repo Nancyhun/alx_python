@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+'''
+A script to export data in the CSV format.
+'''
+
 import csv
 import requests
 import sys
