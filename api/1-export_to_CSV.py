@@ -3,9 +3,11 @@
 A script to export data in the CSV format.
 '''
 
+"""import json, requests, sys"""
 import csv
 import requests
 import sys
+"""import json, requests, sys"""
 
 
 def getData(id):
